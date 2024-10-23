@@ -18,9 +18,11 @@ jobs:
         with:
           node-version: 18
       - name: Install dependencies
-        run: npm ci 
+        run: npm ci
+      - name: npm fund
+        run: npm fund
       - name: Run Tests
         run: npm test
-      - run: npm fund
+    
 
 
