@@ -21,6 +21,8 @@ jobs:
         run: npm ci
       - name: npm fund
         run: npm fund
+      - name: Node Audit
+        run: npm audit
       - name: Run Tests
         run: npm test
     
